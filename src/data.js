@@ -133,6 +133,7 @@ masao: {
         { item: 'Arrachera', min: '1/2 kg' },
         { item: 'Jugo de Lychee', min: '1/2 caja' },
         { item: 'Catsup', min: '1' },
+        { item: 'Sapporo', min: '1 caja' },
       ],
     },
   },
