@@ -119,7 +119,10 @@ export default function Estacion() {
       total: totalToOrder,
     };
     setHistory(prev => [submission, ...prev].slice(0, 30));
-    setShowSummary(true);
+setBelowMin({});
+setQuantities({});
+setNotas('');
+setShowSummary(true);
   };
 
   const sendWhatsApp = () => {
