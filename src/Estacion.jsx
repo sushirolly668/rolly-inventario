@@ -297,7 +297,7 @@ export default function Estacion() {
                 <ShoppingCart size={20} className="text-red-600" />
                 {viewingHistoric ? 'Pedido guardado' : 'Pedido listo'}
               </h2>
-              <button onClick={() => { setShowSummary(false); setViewingHistoric(null); }} className="p-2 rounded-lg hover:bg-stone-100">
+              <button onClick={() => { setShowSummary(false); setViewingHistoric(null); if (!viewingHistoric) { setBelowMin({}); setQuantities({}); setNotas(''); } }} className="p-2 rounded-lg hover:bg-stone-100">
                 <X size={20} className="text-stone-600" />
               </button>
             </div>
