@@ -87,7 +87,6 @@ export default function Estacion() {
           const hasQty = qty && String(qty).trim();
           let line = `  • ${row.item}`;
           if (hasQty) line += ` — ${qty}`;
-          if (row.min) line += ` (mín ${row.min})`;
           sectionsText += line + '\n';
         });
         sectionsText += '\n';
